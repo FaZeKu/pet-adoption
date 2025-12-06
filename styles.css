@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Caprasimo&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dosis:wght@200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Caprasimo&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dosis:wght@200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 
 body {
     font-family: "Outfit", sans-serif;
@@ -435,6 +434,7 @@ button a {
     height: 180px;
     border-radius: 11px;
     margin: 8px;
+    flex: 1;
 }
 
 #first p {
@@ -1087,6 +1087,9 @@ main {
   .stories-cards {
     grid-template-columns: 1fr;
   }
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .footer-container {
     grid-template-columns: 1fr;
@@ -1128,5 +1131,9 @@ main {
 
   .footer-card {
     padding: 1rem;
+  }
+  .container {
+    grid-template-columns: 1fr;
+
   }
 }
