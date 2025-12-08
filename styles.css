@@ -477,6 +477,7 @@ h1 {
     flex: 1;
     min-width: 200px;
     min-height: 180px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
 }
 
 #volunteering-reasons img {
@@ -541,6 +542,7 @@ h1 {
     font-weight: 300;
     height: 180px;
     transition: transform 0.3s ease;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
 
 }
 
@@ -580,6 +582,7 @@ h1 {
     font-weight: 300;
     border-radius: 20px;
     padding: 20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
 }
 
 #requirements1 {
