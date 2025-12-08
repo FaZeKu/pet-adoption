@@ -460,6 +460,11 @@ h1 {
     gap: 20px;
     margin: 50px;
     flex-wrap: wrap;
+    transition: transform 0.3s ease;
+}
+#volunteeering-reasons div:hover {
+    
+      transform: translateY(-10px);
 }
 
 
@@ -535,7 +540,13 @@ h1 {
     font-style: normal;
     font-weight: 300;
     height: 180px;
+    transition: transform 0.3s ease;
 
+}
+
+#volunteer-opportunities div:hover {
+    
+      transform: translateY(-10px);
 }
 
 #volunteer-opportunities img {
