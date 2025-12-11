@@ -1,4 +1,3 @@
 ﻿# Pet-Adoption-Web
 
-https://github.com/FaZeKu/calculator-assignment.git
 
